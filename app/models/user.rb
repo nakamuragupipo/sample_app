@@ -9,5 +9,5 @@ class User < ApplicationRecord
     def formatted_email
      "#{@name} <#{@email}>"
     end
-  end
+
 end

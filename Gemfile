@@ -8,6 +8,8 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
 #railsチュートリアルで追加
 gem 'bootstrap-sass', '3.3.7'
 
+#railsチュートリアル5.32でテストにエラーが出たので追加
+gem 'rails-controller-testing'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
