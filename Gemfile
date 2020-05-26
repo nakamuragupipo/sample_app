@@ -10,6 +10,12 @@ gem 'bootstrap-sass', '3.3.7'
 
 #railsチュートリアル5.32でテストにエラーが出たので追加
 gem 'rails-controller-testing'
+
+#チュートリアル10.42で追加
+gem 'faker',          '1.7.3'
+gem 'will_paginate',           '3.3.0'
+gem 'bootstrap-will_paginate', '1.0.0'
+
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
