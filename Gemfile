@@ -16,6 +16,11 @@ gem 'faker',          '1.7.3'
 gem 'will_paginate',           '3.3.0'
 gem 'bootstrap-will_paginate', '1.0.0'
 
+#チュートリアル13.58にて追加
+gem 'carrierwave',             '1.2.2'
+gem 'mini_magick',             '4.7.0'
+gem 'fog', '1.42'
+
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
