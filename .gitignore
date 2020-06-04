@@ -31,3 +31,6 @@ yarn-debug.log*
 .yarn-integrity
 .env.development
 .DS_Store
+
+# アップロードされたテスト画像を無視する
+/public/uploads
